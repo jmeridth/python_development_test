@@ -26,10 +26,10 @@ The following should be available in your resulting solution zip file:
 ## Problem Details
 
 1. The number of registers is specified by the problem input file. Registers are numbered 1, 2, 3, ..., n for n registers.
-1. Time (t) is measured in minutes.
+1. Time (`t`) is measured in minutes.
 1. The grocery store always has a single cashier in training. This cashier is always assigned to the highest numbered register.
-1. Regular registers take one minute to process each customer's item. The register staffed by the cashier in training takes two minutes for each item. So a customer with n items at a regular register takes n minutes to check out. However, if the customer ends up at the last register, it will take 2n minutes to check out.
-1. The simulation starts at t=0 . At that time all registers are empty (i.e. no customers are in line).
+1. Regular registers take one minute to process each customer's item. The register staffed by the cashier in training takes two minutes for each item. So a customer with `n` items at a regular register takes `n` minutes to check out. However, if the customer ends up at the last register, it will take `2n` minutes to check out.
+1. The simulation starts at `t=0`. At that time all registers are empty (i.e. no customers are in line).
 1. Two types of customers arrive at the registers:
   * Customer Type A always chooses the register with the shortest line (least number of customers in line). If two or more registers have the shortest line, Customer Type A will choose the register with the lowest register number (e.g. register #1 would be chosen over register #3).
   * Customer Type B looks at the last customer in each line, and always chooses to be behind the customer with the fewest number of items left to check out, regardless of how many other customers are in the line or how many items they have. Customer Type B will always choose an empty line before a line with any customers in it.
