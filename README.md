@@ -1,6 +1,8 @@
 ## Quick Read
 
-Please clone this repository using [git](http://git-scm.com/) and complete the problem described below in that repository. When you have completed the problem, zip the resulting directory and return the zipped solution to us by email. If you are not familiar with git, you can find several guides online. If the zip file is too large for email, you may host it using any storage solution you prefer (Dropbox, Google, Microsoft, ...) and send us the link.
+Please clone this repository using [git](http://git-scm.com/) and complete the problem described below in that repository. We prefer that you do not fork this repository; just clone it and commit your work to your local copy of the repository. If you are not familiar with git, you can find several guides online.
+
+When you have completed the problem and commited your work to your local repository, zip the resulting directory and return the zipped solution to us by email. If the zip file is too large for email, you may host it using any storage solution you prefer (Dropbox, Google, Microsoft, ...) and send us the link.
 
 ## Overview
 
@@ -21,7 +23,7 @@ The following should be available in your resulting solution zip file:
   * Unit tests ([unittest](http://docs.python.org/2/library/unittest.html) or [nose](https://nose.readthedocs.org/en/latest/) preferred)
 1. Any other supporting code or other binaries that you used to develop the solution (even if it is not required to run the solution). If a resource is easily accessible on the web you can just provide a link to it rather than including the files.
 
-## Problem Details:
+## Problem Details
 
 1. The number of registers is specified by the problem input file. Registers are numbered 1, 2, 3, ..., n for n registers.
 1. Time (t) is measured in minutes.
@@ -34,7 +36,7 @@ The following should be available in your resulting solution zip file:
 1. Customers just finishing checking out do not count as being in line (for either kind of customer).
 1. If two or more customers arrive at the same time, those with fewer items choose registers before those with more items. If the customers have the same number of items, then type A customers choose before type B customers.
 
-## Input Format:
+## Input Format
 
 The first line of the input file is a single integer specifying the number of registers.
 
@@ -57,6 +59,7 @@ The following highlights occur:
 * t=3 : (Customer #1 now has one item left, since the first item took two minutes).
 * t=5 : Customer #1 leaves and register #1 starts servicing Customer #2.
 * t=7 : Customer #2 leaves.
+
 Here is the expected command output:
 ```
 $ python grocery.py input.txt
