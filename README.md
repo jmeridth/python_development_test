@@ -4,8 +4,6 @@ Please clone this repository using [git](http://git-scm.com/) and complete the p
 
 Please use virtualenv and create your virtualenv directory `venv`. The .gitignore by default will ignore this directory, but if you have an additional IDE files or folders created please add them to your `.gitignore` or specifically do not add them into the git repo. When complete, you **must generate** a `requirements.pip` using pip. If you are not familiar with virtualenv and pip, you can find several guides online.
 
-When you start, you **must create** the file called `started` that contains the current time at which you started. Please use **RFC-3339 format with seconds level precision**. Then commit this file only with the commit message of `Starting Challenge`
-
 When you have completed the problem and commited your work to your local repository, zip the resulting directory and return the zipped solution to us by email. If the zip file is too large for email, you may host it using any storage solution you prefer (Dropbox, Google, Microsoft, ...) and send us the link.
 
 ## Overview
